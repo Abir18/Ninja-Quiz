@@ -14,7 +14,6 @@ form.addEventListener('submit', e => {
         }
     });
 
-
     scrollTo(0, 0);
     
     result.classList.remove('d-none');
@@ -29,6 +28,4 @@ form.addEventListener('submit', e => {
             output++;
         }
     }, 10);
-    
-    console.log(score);
 });
